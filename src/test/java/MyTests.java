@@ -7,12 +7,11 @@ import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.is;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class SimpleTests {
+public class MyTests {
     @Test
     @Tag("positive")
     void successTest() {
         assertEquals(true, true);
-//        assertTrue(true);
     }
 
     @Test
